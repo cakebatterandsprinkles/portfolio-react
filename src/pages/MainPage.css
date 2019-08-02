@@ -1,0 +1,50 @@
+.wrapper {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  /* Set the perspective to 2px. This is essentailly the simulated distance from the viewport to transformed objects.*/
+  perspective: 2px;
+}
+
+.section {
+  position: relative;
+  height: 100vh;
+}
+
+.parallax::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  /* Move the pseudo-element back away from the camera,
+    * then scale it back up to fill the viewport.
+    * Because the pseudo-element is further away, it appears to move more slowly, like in real life. */
+  transform: translateZ(-1px) scale(1.5);
+  /* Force the background image to fill the whole element. */
+  background-size: 100%;
+  /* Keep the image from overlapping sibling elements. */
+  z-index: -1;
+}
+
+/* The styling for the static div. */
+.static {
+  background: #fff;
+  height: 60vh;
+}
+
+.bg-image::after {
+  background-image: url("https://images.unsplash.com/photo-1471246717586-e86823aef5ec?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+}
+
+@media(min-aspect-ratio: 3/2) {
+  .bg-image::after {
+    background-size: 100% auto;
+  }
+}

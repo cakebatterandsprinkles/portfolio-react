@@ -1,0 +1,17 @@
+.main-nav {
+	margin-top: 5px;
+
+}
+.logo a,
+.main-nav a {
+	padding: 10px 15px;
+	text-align: center;
+}
+
+.main-nav a:hover {
+	color: deeppink;
+}
+
+.navbar-main {
+    background: rgba(238, 238, 238, 0.637);
+}

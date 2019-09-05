@@ -1,3 +1,11 @@
 .img-wrapper {
     flex: 1 1 300px;
 }
+
+.card-on-hover {
+    color: linear-gradient(rgba(156, 156, 156, 0.856),rgba(99, 99, 99, 0.199));
+}
+
+.project-name {
+    text-shadow: -1px 1px 5px #252525;
+}

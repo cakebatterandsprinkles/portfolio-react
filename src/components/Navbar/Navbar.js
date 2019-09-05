@@ -3,19 +3,19 @@ import './Navbar.css';
 
 class Navbar extends React.Component {
     render() {
-        return <div className="fixed w-full z-50">
+        return <div className="fixed w-full z-50 text-gray-900">
             <nav className="py-4 px-6 flex justify-between navbar-main items-center">
                 <a href="/">
-                    <h1 className="text-xl md:text-2xl no-underline tracking-tight">yagmur cetin tas</h1>
+                    <p className="text-xl md:text-2xl no-underline tracking-tight brand"><i className="fas fa-sun"></i> yagmur cetin tas</p>
                 </a>
                 <div className="main-nav m-0 p-0 inline">
                     <span>
-                        <a href="/" className="text-xl no-underline inline">home</a>
+                        <a href="/" className="text-lg no-underline inline navbar-link">home</a>
                     </span>
                     <span>
                         <a
-                            href="/portfolio"
-                            className="text-xl no-underline inline">work</a>
+                            href="#works"
+                            className="text-lg no-underline inline navbar-link">works</a>
                     </span>
                 </div>
             </nav>

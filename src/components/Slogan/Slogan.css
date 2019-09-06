@@ -1,6 +1,7 @@
 .slogan-text {
-    background: rgba(0,0,0,0.1);
+    background: rgba(97, 84, 68, 0.274);
     text-shadow: 1px 1px black;
     padding: 10px;
     border-radius: 4px;
+    font-family: 'Nova Mono', monospace;
 }

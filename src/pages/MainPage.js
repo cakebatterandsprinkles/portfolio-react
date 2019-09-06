@@ -2,7 +2,8 @@ import React from 'react';
 import Gallery from '../components/Gallery/Gallery';
 import InfoContainer from '../components/InfoContainer/InfoContainer';
 import Slogan from "../components/Slogan/Slogan";
-import Navbar from "../components/Navbar/Navbar"
+import Navbar from "../components/Navbar/Navbar";
+import Footer from "../components/Footer/Footer.js";
 import "./MainPage.css";
 
 class MainPage extends React.Component {
@@ -20,6 +21,7 @@ class MainPage extends React.Component {
                     <Gallery/>
                 </div>
             </div>
+            <Footer/>
         </div>
     }
 }

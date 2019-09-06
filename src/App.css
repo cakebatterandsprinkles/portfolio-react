@@ -1,3 +1,14 @@
 body {
+    min-height:100%;
+    position:relative;
+    padding-bottom: 40px;
     font-family: 'Inconsolata', monospace;
+}
+
+html {
+    height:100%;
+}
+
+.footer {
+    background:linear-gradient(rgba(238, 238, 238, 0.096), rgba(207, 207, 207, 0.637));
 }

@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.32e6364e.chunk.css",
+    "main.css": "/portfolio-react/static/css/main.361ab038.chunk.css",
     "main.js": "/portfolio-react/static/js/main.15405629.chunk.js",
     "main.js.map": "/portfolio-react/static/js/main.15405629.chunk.js.map",
     "runtime~main.js": "/portfolio-react/static/js/runtime~main.227154be.js",
@@ -8,9 +8,9 @@
     "static/js/2.3d98b647.chunk.js": "/portfolio-react/static/js/2.3d98b647.chunk.js",
     "static/js/2.3d98b647.chunk.js.map": "/portfolio-react/static/js/2.3d98b647.chunk.js.map",
     "index.html": "/portfolio-react/index.html",
-    "precache-manifest.8069b56cfaa3e6232b2b60a2fb6990de.js": "/portfolio-react/precache-manifest.8069b56cfaa3e6232b2b60a2fb6990de.js",
+    "precache-manifest.dee7d98d2d64bbb707ce7a23a00c6f55.js": "/portfolio-react/precache-manifest.dee7d98d2d64bbb707ce7a23a00c6f55.js",
     "service-worker.js": "/portfolio-react/service-worker.js",
-    "static/css/main.32e6364e.chunk.css.map": "/portfolio-react/static/css/main.32e6364e.chunk.css.map",
+    "static/css/main.361ab038.chunk.css.map": "/portfolio-react/static/css/main.361ab038.chunk.css.map",
     "static/media/adventuretime-bg.png": "/portfolio-react/static/media/adventuretime-bg.a01be10b.png",
     "static/media/bamazon-01.png": "/portfolio-react/static/media/bamazon-01.2b9c32fc.png",
     "static/media/coding-blackbg.png": "/portfolio-react/static/media/coding-blackbg.fca8fc64.png",

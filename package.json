@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "animejs": "^3.1.0",
+    "gh-pages": "^2.1.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-scripts": "3.1.1"
@@ -11,6 +12,8 @@
   "scripts": {
     "prestart": "tailwind build ./src/index.tailwind.css -c ./tailwind.config.js -o ./src/index.css",
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "prebuild": "tailwind build ./src/index.tailwind.css -c ./tailwind.config.js -o ./src/index.css",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
@@ -33,5 +36,6 @@
   },
   "devDependencies": {
     "tailwindcss": "^1.1.2"
-  }
+  },
+  "homepage": "https://cakebatterandsprinkles.github.io/portfolio-react"
 }

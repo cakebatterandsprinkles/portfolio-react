@@ -33,18 +33,30 @@
 /* The styling for the static div. */
 .static {
   background: #fff;
-  height: 60vh;
+  height: 65vh;
 }
 
 .bg-image::after {
-  background-image: url("./piratemamu2.jpg");
+  background-image: url("./feathers.jpg");
   background-repeat: no-repeat;
-  background-size: auto 100%;
+  background-size: 100% auto;
   background-position: center;
 }
 
 @media(min-aspect-ratio: 3/2) {
   .bg-image::after {
     background-size: 100% auto;
+  }
+}
+
+@media(max-aspect-ratio: 9/7) {
+  .static {
+    height: 90vh;
+  }
+}
+
+@media(max-width: 1000px) {
+  .bg-image::after {
+    background-size: auto 100%;
   }
 }

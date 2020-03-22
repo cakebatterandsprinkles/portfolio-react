@@ -5,8 +5,10 @@
   "dependencies": {
     "animejs": "^3.1.0",
     "gh-pages": "^2.1.1",
+    "history": "^4.10.1",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
+    "react-ga": "^2.7.0",
     "react-scripts": "3.1.1"
   },
   "scripts": {
